@@ -15,8 +15,11 @@ const page = () => {
         <div className="flex justify-center text-3xl pt-1 pb-16 text-gray-500  font-bold  text-center">
           Product-led Founders
         </div>
+        <div className=" w-full h-72">
+          {" "}
+          <Box />
+        </div>
 
-        <Box />
         <div className="flex justify-center sm:pt-10 pt-15 pb-10  ">
           <button className="bg-black text-white rounded-3xl w-36 h-12 ">
             Get in touch
