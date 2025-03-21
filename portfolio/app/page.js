@@ -10,7 +10,7 @@ const page = () => {
           <b className="text-purple-600 text-3xl">X</b>
         </div>
         <div className="flex justify-center font-extrabold sm:text-4xl text-xl mt-10 sm:font-bold text-center">
-          Design and Development Partner For{" "}
+          Design And Development Partner For{" "}
         </div>
         <div className="flex justify-center  sm:text-3xl pt-1 pb-16 text-gray-500  font-bold  text-center">
           Product-led Founders
