@@ -1,20 +1,18 @@
 import React from "react";
 import Box from "./Components/Box";
 
-<<<<<<< HEAD
-export default function Home() {
-  return <div className="h-12 w-7 bg-amber-500">hello world</div>;
-}
-=======
 const page = () => {
   return (
-    <div className="bg-neutral-500 sm:h-screen flex justify-center items-center">
-      <div className="bg-gray-300 w-screen sm:h-[93vh]    rounded-2xl m-10 sm:m-x-4flex flex-col">
-        <div className="flex justify-center text-3xl pt-2">CodeX</div>
-        <div className="flex justify-center text-3xl pt-40 font-bold text-center">
+    <div className="bg-neutral-100 sm:h-screen flex justify-center items-center">
+      <div className="bg-white  w-screen sm:h-[93vh]  justify-center items-center w-full rounded-2xl m-10 sm:m-x-4flex flex-col shadow-xl">
+        <div className="flex justify-center text-3xl mt-10 ">
+          <b>Code</b>
+          <b className="text-purple-600 text-3xl">X</b>
+        </div>
+        <div className="flex justify-center text-4xl mt-10 font-bold text-center">
           Design and Development Partner For{" "}
         </div>
-        <div className="flex justify-center text-3xl pt-1 pb-16 text-gray-400 font-bold  text-center">
+        <div className="flex justify-center text-3xl pt-1 pb-16 text-gray-500  font-bold  text-center">
           Product-led Founders
         </div>
 
@@ -30,4 +28,3 @@ const page = () => {
 };
 
 export default page;
->>>>>>> da0beac65e982b1d90197f3b2305f6272b70232e

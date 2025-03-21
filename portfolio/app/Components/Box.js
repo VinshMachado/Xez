@@ -8,11 +8,11 @@ const Box = () => {
       {det.map((item, index) => (
         <div
           key={index}
-          className="bg-slate-400 rounded-2xl w-44 h-52 flex justify-center items-center"
+          className="bg-white hover:w-64 hover:h-80 rounded-2xl w-60 h-72 flex justify-center hover:shadow-purple-300 items-center shadow-gray-400 shadow-lg"
         >
           <div className=" flex-col justify-center items-center">
-            <div className="bg-purple-400 w-24 h-24 rounded-lg"></div>
-            <span className="pt-4 text-black font-bold text-lg text-center flex justify-center">
+            <div className="bg-gray-400 w-24 h-24 rounded-lg"></div>
+            <span className="pt-4 text-black font-bold text-2xl text-center flex justify-center">
               {item}
             </span>
           </div>
