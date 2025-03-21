@@ -9,13 +9,13 @@ const page = () => {
           <b>Code</b>
           <b className="text-purple-600 text-3xl">X</b>
         </div>
-        <div className="flex justify-center text-4xl mt-10 font-bold text-center">
+        <div className="flex justify-center sm:text-4xl mt-10 font-bold text-center">
           Design and Development Partner For{" "}
         </div>
-        <div className="flex justify-center text-3xl pt-1 pb-16 text-gray-500  font-bold  text-center">
+        <div className="flex justify-center  sm:text-3xl pt-1 pb-16 text-gray-500  font-bold  text-center">
           Product-led Founders
         </div>
-        <div className=" w-full h-72">
+        <div className=" w-full h-auto sm:h-72 ">
           {" "}
           <Box />
         </div>
