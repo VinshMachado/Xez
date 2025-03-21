@@ -18,12 +18,11 @@ const page = () => {
         <div className=" w-full h-auto sm:h-72 ">
           {" "}
           <Box />
-        </div>
-
-        <div className="flex justify-center sm:pt-10 pt-15 pb-10  ">
-          <button className="bg-black text-white rounded-3xl w-36 h-12 hover:scale-110 hover:translate-y-[-10px] ease-in duration-200 hover:shadow-purple-300 shadow-gray-400 shadow-lg">
-            Get in touch
-          </button>
+          <div className="flex justify-center sm:pt-10 pt-15 pb-10  ">
+            <button className="bg-black relative hover:text-purple-300 text-white rounded-3xl w-36 h-12 hover:scale-110 hover:translate-y-[-10px] ease-in duration-200 hover:shadow-purple-300 shadow-gray-400 shadow-lg">
+              Get in touch
+            </button>
+          </div>
         </div>
       </div>
     </div>
