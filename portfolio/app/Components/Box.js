@@ -24,6 +24,7 @@ const Box = () => {
           </div>
         </AlertDialogTrigger>
         <AlertDialogContent>
+          {/* service thing is here */}
           <Service />
           <AlertDialogAction>back</AlertDialogAction>
         </AlertDialogContent>
