@@ -11,7 +11,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
-
+import Service from "./service";
 const Box = () => {
   const det = ["Work", "Services", "About", "Plans"];
 
@@ -24,7 +24,7 @@ const Box = () => {
           </div>
         </AlertDialogTrigger>
         <AlertDialogContent>
-          {/* sion put the card here */}
+          <Service />
           <AlertDialogAction>back</AlertDialogAction>
         </AlertDialogContent>
       </AlertDialog>
