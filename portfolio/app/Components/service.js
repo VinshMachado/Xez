@@ -13,7 +13,7 @@ const service = () => {
         <span className="text-3xl font-bold  ">Services</span>
         <p className="text-lg text-[#727272] leading-5 py-5">
           We team up with founders and startups to bring their ideas to
-          life—whether it's a simple landing page, a complete website, or mobile
+          life—whether it s a simple landing page, a complete website, or mobile
           and web apps.
         </p>
         <ul className="list-disc text-[#727272] pl-5 ">
